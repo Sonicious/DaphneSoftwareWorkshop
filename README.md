@@ -4,67 +4,9 @@ This workshop was held during the DAPHNE4NFDI Annual Meeting 2026
 
 Date: March 25th, 2026
 
-[![DOI](https://zenodo.org/badge/1191456170.svg)](https://doi.org/10.5281/zenodo.19219172)
+[![DOI](https://zenodo.org/badge/1191456170.svg)](https://zenodo.org/badge/latestdoi/1191456170)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
----
-
-## Slide 1 — Why Software Lifecycle matters
-
-* reproducibility (critical in science)
-* collaboration across institutions
-* sustainability beyond project funding
-* typical failure: code without context
-* "It runs on my machine"
-
----
-
-## Slide 2 — Minimal Lifecycle
-
-* Code -> Python
-* Version Control -> Git + GitHub/GitLab
-* Documentation → README
-* License -> reuse & legal clarity
-* Metadata -> citation
-* Publishing 
-* Testing -> reliability
-* Environment -> Docker
-
----
-
-## Slide 3 — What we build
-
-* GitHub-based project (clone workflow)
-* Python web app
-* test with pytest
-* Docker container
-* NGINX reverse proxy
-
----
-
-## Slide 4 — Docker in the lifecycle
-
-* replaces “setup instructions”
-* enables:
-
-  * reproducibility
-  * portability
-  * deployment
-* connects to CI/CD later
-
----
-
-## Slide 5 — Lifecycle in platforms
-
-* GitHub / GitLab integrate:
-
-  * version control
-  * issues
-  * CI/CD
-  * container registry
-* today: foundation for automation
-
----
+[![Test](https://github.com/Sonicious/DaphneSoftwareWorkshop/actions/workflows/testing.yml/badge.svg)](https://github.com/Sonicious/DaphneSoftwareWorkshop/actions/workflows/testing.yml)
 
 # Step 0 — Start on Github
 
@@ -221,7 +163,7 @@ git commit -m "Add app, test, metadata"
 git push
 ```
 
-## let's tag and push
+## [optional] let's tag and push
 ```bash
 git tag -a 0.5 -m "This is our first release tag"
 git push --tags
@@ -234,7 +176,6 @@ git push --tags
 - go to your zenodo account, integrate github
 - activate automated publishing
 - go to github
-- create a tag
 - create a release
 - enjoy your automatic publication and fresh DOI
 
@@ -300,7 +241,7 @@ GitLab is equivalent with other wordings and syntax:
 
 GitHub Actions example:
 
-`.github/workflows/test.yml`
+`.github/workflows/testing.yml`
 
 ```yaml
 name: Test
