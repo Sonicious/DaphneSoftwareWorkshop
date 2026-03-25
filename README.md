@@ -7,7 +7,7 @@ Date: March 25th, 2026
 [![DOI](https://zenodo.org/badge/1191456170.svg)](https://zenodo.org/badge/latestdoi/1191456170)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Test](https://github.com/Sonicious/DaphneSoftwareWorkshop/actions/workflows/testing.yml/badge.svg)](https://github.com/Sonicious/DaphneSoftwareWorkshop/actions/workflows/testing.yml)
-
+[![Docker Build test](https://github.com/Sonicious/DaphneSoftwareWorkshop/actions/workflows/dockertest.yml/badge.svg)](https://github.com/Sonicious/DaphneSoftwareWorkshop/actions/workflows/dockertest.yml)
 # Step 0 — Start on Github
 
 ## Create Repo
