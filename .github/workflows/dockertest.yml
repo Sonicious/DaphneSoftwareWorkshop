@@ -13,7 +13,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag daphne-workshop:$(date +%s)
+      run: docker build . --file Dockerfile --tag daphne-workshop
     - name: Run container test
       run: |
         docker run -d -p 5000:5000 --name app daphne-workshop
