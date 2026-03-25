@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Reinhardt"
+  given-names: "Martin"
+  orcid: "https://orcid.org/0000-0002-1213-5135"
+title: "Software Lifecycle in a Nutshell"
+version: 0.5
+date-released: 2026-03-25
+url: "https://github.com/Sonicious/DaphneSoftwareWorkshop"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.19219172
